@@ -15,3 +15,10 @@ document.images.length;
 // Node => array
 const imageArray = Array.from(document.images);
 const imageArray = [...document.images];
+
+// access node values
+const para = document.querySelector('p');
+const textNode = para.firstChild;
+textNode.nodeValue;
+// OR
+para.textContent; // not supported by IE 8
