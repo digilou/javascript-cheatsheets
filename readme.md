@@ -14,3 +14,6 @@ Cheatsheets cover topics about:
   - [Manipulate markup](DOM/manipulate-markup.js)
   - [Manipulate styles](DOM/manipulate-styles.js)
 - Event Listeners
+
+Inspirational Resources:
+- JavaScript: Novice to Ninja
