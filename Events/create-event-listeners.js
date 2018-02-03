@@ -8,7 +8,7 @@ button.addEventListener('click', makeItSo);
 
 // an event object
 function makeItSo(event) {
-  alert('Red Alert!);
+  alert('Red Alert!');
   console.log(event.type); // event type: click
   console.log(event.target); // target property: button
 }
