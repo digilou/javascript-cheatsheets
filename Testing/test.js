@@ -1,4 +1,4 @@
-// set up test with expectations
+// set up test with assertions
 
 test('Invoking a method', function() {
   var result1 = filter1.highPass(3),
@@ -11,3 +11,7 @@ test('Invoking a method', function() {
   equal(result3, true,
     '6 >= filter3.cutoff should be true.');
 });
+
+.start()
+.stop()
+.complete()
