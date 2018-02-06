@@ -4,7 +4,7 @@ Throughout my JavaScript learning journey, I've found several terms to be confus
 
 arity: the number of variables passed into a function
 
-callback: a function inside another function
+callback: a function used as a parameter of another function; called after the other function has done its job
 
 currying: 
 
@@ -20,12 +20,14 @@ IIFE: Immediately Invoked Functional Expressions; an anonymous function that wra
 
 iteration: 
 
-lambda: a function used as a data in an argument or a return value
+lambda: a function used as data in an argument or a return value
 
 method: a function within an object
 
+object: technically EVERYTHING in JavaScript is an object, but this term is often used for a collection of key and value pairs
+
 polymorphic function: function that does something different every time different parameters are passed in
 
-promise:
+promise: an object that allows you to call a callback function to success to failure queues (ES6)
 
 pure function: a function that outputs the same result each time (opposite of polymorphic)

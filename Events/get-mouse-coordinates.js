@@ -10,3 +10,5 @@ function showCoordinates(e) {
 }
 
 document.addEventListener('click', showCoordinates);
+
+// See example at https://codepen.io/digilou/pen/eVzKzw
