@@ -6,6 +6,8 @@ arity: the number of variables passed into a function
 
 callback: a function used as a parameter of another function; called after the other function has done its job
 
+class: inheritance
+
 currying: 
 
 DOT: Do One Thing (best practice for writing a function)
@@ -14,7 +16,11 @@ DRY: Don't Repeat Yourself (restrict duplicate code)
 
 event listener: waiting for a something (an event) to happen, often used to wait for a user to do something
 
+factory: a method used to create other objects
+
 function:
+
+garbage collection: 
 
 IIFE: Immediately Invoked Functional Expressions; an anonymous function that wraps all the code to create its own scope
 
@@ -28,6 +34,8 @@ object: technically EVERYTHING in JavaScript is an object, but this term is ofte
 
 polymorphic function: function that does something different every time different parameters are passed in
 
-promise: an object that allows you to call a callback function to success to failure queues (ES6)
+promise: an object that allows you to call a callback function to success and failure queues (ES6); it's returned by the callee, rather than passed in as a parameter
+
+prototype: an object intended to model other objects; delegates access to another object (not a copy)
 
 pure function: a function that outputs the same result each time (opposite of polymorphic)
